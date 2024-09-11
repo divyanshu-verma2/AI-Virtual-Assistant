@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0a0f23, #031a5d);
+}
+
+.image-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.image img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.image-container h1 {
+    color: #00bcd4;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.image-container p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 50px;
+    border-radius: 20px;
+    background: rgba(202, 253, 255, 0.5);
+}
+
+.input .talk {
+    background: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.input .talk i {
+    font-size: 20px;
+    color: #aed0d0;
+}
+
+.input .content {
+    color: #aed0d0;
+    font-size: 18px;
+    margin-left: 15px;
+}
